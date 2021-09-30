@@ -1,0 +1,53 @@
+name: app_library
+description: Library of flutters apps.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  
+  # xylophone
+  audioplayers: ^0.19.1
+
+  # bmi
+  font_awesome_flutter: ^9.1.0
+  
+  # clima
+  geolocator: ^7.4.0
+  http: ^0.13.3
+  flutter_spinkit: ^5.0.0
+  
+  # flash chat
+  animated_text_kit: ^4.2.1
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+
+  firebase_core: ^1.6.0
+  firebase_auth: ^3.1.0
+  cloud_firestore: ^2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - images/
+
+  fonts:
+  - family: Spartan MB
+    fonts:
+    - asset: fonts/SpartanMB-Black.otf
+      weight: 900
